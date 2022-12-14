@@ -59,14 +59,3 @@ export const Large = (args) => (
     />
   </div>
 );
-
-export const Conrols = (args) => (
-  <div>
-    <Avatar
-      size="tiny"
-      username="Tom Coleman"
-      loading={false}
-      src="https://avatars2.githubusercontent.com/u/132554"
-    />
-  </div>
-);
