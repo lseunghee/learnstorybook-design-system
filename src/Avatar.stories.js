@@ -37,16 +37,16 @@ export const Initials = (args) => (
 );
 
 export const Loading = (args) => (
-    <div>
-      <Avatar {...args} size="large" />
-      <Avatar {...args} size="medium" />
-      <Avatar {...args} size="small" />
-      <Avatar {...args} size="tiny" />
-    </div>
-  );
-  Loading.args = {
-    loading: true,
-  };
+  <div>
+    <Avatar {...args} size="large" />
+    <Avatar {...args} size="medium" />
+    <Avatar {...args} size="small" />
+    <Avatar {...args} size="tiny" />
+  </div>
+);
+Loading.args = {
+  loading: true,
+};
 
 export const Large = (args) => (
   <div>
@@ -55,6 +55,17 @@ export const Large = (args) => (
     <Avatar
       size="large"
       username="Tom Coleman"
+      src="https://avatars2.githubusercontent.com/u/132554"
+    />
+  </div>
+);
+
+export const Conrols = (args) => (
+  <div>
+    <Avatar
+      size="tiny"
+      username="Tom Coleman"
+      loading={false}
       src="https://avatars2.githubusercontent.com/u/132554"
     />
   </div>
